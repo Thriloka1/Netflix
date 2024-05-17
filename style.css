@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: cursive;
+}
+header{
+    width: 100%;height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./back.png);
+}
+.head{
+    margin-top: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sep{
+    margin-left: 250px;
+    color: red;
+}
+.sep,.sep1{
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+select{
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+}
+button{
+    height: 30px;
+    width: 60px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+.body{
+    width: 100%;
+    height: 445px;
+    margin: 0;
+    position: relative;
+}
+
+.body h1{
+    width: 50%;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+
+.body h2{
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+}
+.body h3{
+    width: 50%;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 250px;
+}
+
+.body .box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 350px;
+    left: 0px;
+}
+
+.box input{
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+}
+.box button{
+    width: 10%;
+    height: 40px;
+}
+
+.container{
+    width: 100%;
+    height: 350px;
+    background: radial-gradient(
+        50% 500% at 50% -420%,
+        rgba(64, 97, 231, 0.4) 80%,
+        rgba(0, 0, 0, 0.1) 100%
+    ),black;
+    color: white;
+}
+.container h1{
+    margin-left: 200px;
+}
+
+.cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 200px;
+    margin-top: 20px;
+    height: 250px;
+    border: none;
+    border:none;
+    border-radius: 20px;
+    color: white;
+    background: linear-gradient(
+        149deg,
+        #192247 0%,
+        #210e17 96.86%
+    );
+    position: relative;
+}
+.card p{
+    margin-top: 100px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.card i{
+    color: red;
+    font-size: 50px;
+    position: absolute;
+    top: 200px;
+    left: 130px;
+}
+
+
+.que{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+}
+.que ul{
+    display: block;
+}
+.que li{
+    width: 60%;
+    height: 50px;
+    font-size: 20px;
+    list-style-type: none;
+    align-items: center;
+    background-color: gray;
+    margin: 0px 0px 30px 200px;
+    position: relative;
+    display: flex;
+}
+.que h1{
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    color: white;
+    margin: 0px 0px 10px 200px;
+    font-size: larger;
+}
+.que li h4{
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 10px;
+    font-size: large;
+    color: white;
+}
+.que h2{
+    margin-left: 200px;
+    color: white;
+}
+
+.foot1{
+    background-color: black;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-template-columns: auto;
+}
+.foot1 p{
+    font-size: 15px;
+    margin: 10px 0px;
+    color: white;
+}
+.foot1 .con{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.foot1 input{
+    width: 600px;
+    height: 35px;
+    margin-right: 10px;
+    border: 1px solid white;
+}
+.foot1 button{
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+.foot2{
+    width: 100%;
+    height: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto auto;
+    background-color: black;
+}
+.foot2 a{
+    color: white;
+    font-size: 12px;
+}
+
+.foot3{
+    width: 100%;
+    height: 150px;
+    display: block;
+    background-color: black;
+}
+.foot3 select{
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    font-size: 13px;
+    margin: 10px 0px 20px 200px;
+    border: 1px solid white;
+}
+.foot3 option{
+    background-color: white;
+    color: black;
+}
+.foot3 p{
+    color: white;
+    margin:0px 0px 50px 200px;
+}
